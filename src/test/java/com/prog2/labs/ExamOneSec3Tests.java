@@ -2,6 +2,8 @@ package com.prog2.labs;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
+import java.util.Arrays;
+
 import org.junit.jupiter.api.Test;
 
 /**
@@ -21,6 +23,9 @@ class ExamOneSec3Tests {
 		String[] expected = {"etmytarg", "mytargetap", "mytargetc", "rgetmyta",
 				"targetmy", "xltmytarge", "ytargetmy"};
 		
+    Arrays.sort(actual);
+    Arrays.sort(expected);
+
 		assertArrayEquals(actual, expected);
 	}
 	
@@ -37,6 +42,9 @@ class ExamOneSec3Tests {
 				"olefooletvifoo", "oletvi", "oletvifoo", "tviole", "tviolefoo", "violet", 
 				"violet"};
 		
+    Arrays.sort(actual);
+    Arrays.sort(expected);
+    
 		assertArrayEquals(actual, expected);
 	}
 	
@@ -51,6 +59,9 @@ class ExamOneSec3Tests {
 		String[] expected = {"clumsyeagle", "eagleasymmetry", "hasye", "hasyellow",
 				"scaleasymmetry", "yeasterisk"};
 		
+    Arrays.sort(actual);
+    Arrays.sort(expected);
+
 		assertArrayEquals(actual, expected);
 	}
 	
@@ -67,6 +78,9 @@ class ExamOneSec3Tests {
 		String[] expected = {"closerendipity", "dipityserenderendi", "dipityserendertyson",
 				"endidipityserender", "erendipityson", "tysondipityserender"};
 		
+    Arrays.sort(actual);
+    Arrays.sort(expected);
+
 		assertArrayEquals(actual, expected);
 	}
 	
